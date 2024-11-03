@@ -1,5 +1,5 @@
 import { createTRPCContext } from "@/trpc/init";
-import { appRouter } from "@/trpc/routers/_app";
+import { appRouter } from "@/trpc/root";
 import { fetchRequestHandler } from "@trpc/server/adapters/fetch";
 
 

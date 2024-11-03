@@ -5,9 +5,9 @@ export default async function Home() {
 
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <ClientGreeting name="Client 1" />
+      <ClientGreeting />
 
-      <ServerGreeting name="Server 1"/>
+      <ServerGreeting />
     </main>
   );
 }
